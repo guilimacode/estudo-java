@@ -1,0 +1,11 @@
+package antonioguilhermedev.estudojava.javacore.Bintroducaometodos.test;
+
+import antonioguilhermedev.estudojava.javacore.Bintroducaometodos.domain.Calculadora;
+
+public class CalculadoraTest {
+    public static void main(String[] args) {
+        Calculadora calculadora = new Calculadora();
+        calculadora.somaDoisNumeros();
+        calculadora.subtraiDoisNumeros();
+    }
+}
