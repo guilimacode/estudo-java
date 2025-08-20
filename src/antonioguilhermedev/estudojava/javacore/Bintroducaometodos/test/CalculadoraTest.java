@@ -7,5 +7,6 @@ public class CalculadoraTest {
         Calculadora calculadora = new Calculadora();
         calculadora.somaDoisNumeros();
         calculadora.subtraiDoisNumeros();
+        calculadora.multiplicaDoisNumeros(10, 20);
     }
 }
