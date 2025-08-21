@@ -8,5 +8,8 @@ public class CalculadoraTest {
         calculadora.somaDoisNumeros();
         calculadora.subtraiDoisNumeros();
         calculadora.multiplicaDoisNumeros(10, 20);
+
+        double result = calculadora.divideDoisNumeros(10,5);
+        System.out.println(result);
     }
 }
