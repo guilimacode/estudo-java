@@ -20,6 +20,9 @@ public class EstudanteTest {
         impressora.imprimeEstudante(estudante1);
         impressora.imprimeEstudante(estudante2);
 
+        estudante1.Imprime();
+        estudante2.Imprime();
+
 
     }
 }
