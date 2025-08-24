@@ -18,5 +18,10 @@ public class CalculadoraTest {
         System.out.println("Dentro CalculadoraTest");
         System.out.println("Num1 "+a);
         System.out.println("Num2 "+b);
+
+        int[] numeros = {1,2,3};
+        calculadora.somaArray(numeros);
+
+        calculadora.somaVarArgs(12, 21, 32, 42, 42, 564, 45);
     }
 }
