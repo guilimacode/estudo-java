@@ -5,7 +5,7 @@ import guilimacode.estudojava.javacore.construtores.domain.Serie;
 
 public class SerieTest {
     public static void main(String[] args) {
-        Serie serie = new Serie("Dark", "TV", 34, "Suspense");
+        Serie serie = new Serie("Dark", "TV", 34, "Suspense", "Baran bo Odar");
         serie.imprime();
     }
 }

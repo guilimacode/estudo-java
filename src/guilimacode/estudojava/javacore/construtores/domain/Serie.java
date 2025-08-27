@@ -5,6 +5,7 @@ public class Serie {
     private String tipo;
     private int episodios;
     private String genero;
+    private String diretor;
 
     public Serie(String nome, String tipo, int episodios,  String genero) {
         this.nome = nome;
@@ -13,11 +14,17 @@ public class Serie {
         this.genero = genero;
     }
 
+    public Serie(String nome, String tipo, int episodios,  String genero, String diretor) {
+        this(nome, tipo, episodios, genero);
+        this.diretor = diretor;
+    }
+
     public void imprime() {
         System.out.println(this.nome);
         System.out.println(this.tipo);
         System.out.println(this.episodios);
         System.out.println(this.genero);
+        System.out.println(this.diretor);
     }
 
     public String getTipo() {
