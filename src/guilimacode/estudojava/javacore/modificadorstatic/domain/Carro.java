@@ -3,13 +3,13 @@ package guilimacode.estudojava.javacore.modificadorstatic.domain;
 public class Carro {
     private String marca;
     private double velocidade;
-    public static double velocidadeLimite = 250;
+    private static double velocidadeLimite = 250;
 
     public void imprime(){
         System.out.println("----------------------");
         System.out.println("Marca: " + this.marca);
         System.out.println("Velocidade Máxima: " + this.velocidade);
-        System.out.println("Velocidade Limite: " + Carro.velocidadeLimite);
+        System.out.println("Velocidade Limite: " + this.velocidadeLimite);
     }
 
     public Carro(String marca, double velocidade) {
@@ -33,4 +33,11 @@ public class Carro {
         this.velocidade = velocidade;
     }
 
+    public static void setVelocidadeLimite(double velocidadeLimite) {
+        Carro.velocidadeLimite = velocidadeLimite;
+    }
+
+    public static double getVelocidadeLimite() {
+        return Carro.velocidadeLimite;
+    }
 }
