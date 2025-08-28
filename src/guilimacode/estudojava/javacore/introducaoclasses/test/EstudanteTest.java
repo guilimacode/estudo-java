@@ -1,6 +1,6 @@
-package guilimacode.estudojava.javacore.Aintroducaoclasses.test;
+package guilimacode.estudojava.javacore.introducaoclasses.test;
 
-import guilimacode.estudojava.javacore.Aintroducaoclasses.domain.Estudante;
+import guilimacode.estudojava.javacore.introducaoclasses.domain.Estudante;
 
 public class EstudanteTest {
     public static void main(String[] args) {

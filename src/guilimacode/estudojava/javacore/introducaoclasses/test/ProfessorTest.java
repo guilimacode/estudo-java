@@ -1,6 +1,6 @@
-package guilimacode.estudojava.javacore.Aintroducaoclasses.test;
+package guilimacode.estudojava.javacore.introducaoclasses.test;
 
-import guilimacode.estudojava.javacore.Aintroducaoclasses.domain.Professor;
+import guilimacode.estudojava.javacore.introducaoclasses.domain.Professor;
 
 public class ProfessorTest {
     public static void main(String[] args) {

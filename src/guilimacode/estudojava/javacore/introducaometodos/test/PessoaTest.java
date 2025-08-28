@@ -1,6 +1,6 @@
-package guilimacode.estudojava.javacore.Bintroducaometodos.test;
+package guilimacode.estudojava.javacore.introducaometodos.test;
 
-import guilimacode.estudojava.javacore.Bintroducaometodos.domain.Pessoa;
+import guilimacode.estudojava.javacore.introducaometodos.domain.Pessoa;
 
 public class PessoaTest {
     public static void main(String[] args) {

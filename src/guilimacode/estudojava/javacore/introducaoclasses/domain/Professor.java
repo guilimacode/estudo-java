@@ -1,4 +1,4 @@
-package guilimacode.estudojava.javacore.Aintroducaoclasses.domain;
+package guilimacode.estudojava.javacore.introducaoclasses.domain;
 
 public class Professor {
     public String nome;

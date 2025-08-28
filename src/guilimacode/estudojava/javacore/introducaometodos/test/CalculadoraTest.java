@@ -1,6 +1,6 @@
-package guilimacode.estudojava.javacore.Bintroducaometodos.test;
+package guilimacode.estudojava.javacore.introducaometodos.test;
 
-import guilimacode.estudojava.javacore.Bintroducaometodos.domain.Calculadora;
+import guilimacode.estudojava.javacore.introducaometodos.domain.Calculadora;
 
 public class CalculadoraTest {
     public static void main(String[] args) {

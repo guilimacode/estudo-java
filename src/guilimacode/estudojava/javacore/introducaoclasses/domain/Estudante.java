@@ -1,4 +1,4 @@
-package guilimacode.estudojava.javacore.Aintroducaoclasses.domain;
+package guilimacode.estudojava.javacore.introducaoclasses.domain;
 
 public class Estudante {
     public String nome;

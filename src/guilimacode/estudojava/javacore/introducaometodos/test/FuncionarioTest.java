@@ -1,6 +1,6 @@
-package guilimacode.estudojava.javacore.Bintroducaometodos.test;
+package guilimacode.estudojava.javacore.introducaometodos.test;
 
-import guilimacode.estudojava.javacore.Bintroducaometodos.domain.Funcionario;
+import guilimacode.estudojava.javacore.introducaometodos.domain.Funcionario;
 
 public class FuncionarioTest {
     public static void main(String[] args) {

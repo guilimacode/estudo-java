@@ -1,7 +1,7 @@
-package guilimacode.estudojava.javacore.Bintroducaometodos.test;
+package guilimacode.estudojava.javacore.introducaometodos.test;
 
-import guilimacode.estudojava.javacore.Bintroducaometodos.domain.Estudante;
-import guilimacode.estudojava.javacore.Bintroducaometodos.domain.ImpressoraEstudante;
+import guilimacode.estudojava.javacore.introducaometodos.domain.Estudante;
+import guilimacode.estudojava.javacore.introducaometodos.domain.ImpressoraEstudante;
 
 public class EstudanteTest {
     public static void main(String[] args) {
