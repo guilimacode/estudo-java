@@ -24,5 +24,6 @@ public class HerancaTest1 {
         funcionario.setEndereco(endereco);
         funcionario.setSalario(5000);
         funcionario.imprimir();
+        funcionario.relatorioPagamento();
     }
 }
